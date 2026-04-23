@@ -1,24 +1,25 @@
 # 🚀 Automated Investment Thesis Generator
 
 ## 📌 Overview
-The **Automated Investment Thesis Generator** is a full-stack web application designed to analyze startup pitch decks (PPT/PPTX) and generate a structured investment report.
+The **Automated Investment Thesis Generator** is a full-stack web application that analyzes startup pitch decks (PPT/PPTX) and generates a structured investment report.
 
-The system extracts textual content from presentation slides, evaluates the startup across multiple business dimensions, and produces a detailed PDF report including scores, insights, strengths, weaknesses, and investment recommendations.
+The system extracts textual content from slides, evaluates startups across key business dimensions, and produces a detailed PDF report with scores, insights, strengths, weaknesses, and investment recommendations.
 
 ---
 
 ## 🎯 Objective
-To automate the evaluation of startup pitch decks using AI-driven analysis and provide a standardized, data-backed investment thesis for investors and analysts.
+To automate startup pitch deck evaluation using AI-driven analysis and generate a standardized, data-backed investment thesis for investors, analysts, and academic use.
 
 ---
 
 ## 🚀 Key Features
+
 - 📂 Upload startup pitch decks (PPT/PPTX)
 - 🧾 Extract slide content using Python
-- 🧠 Analyze startup across 9 evaluation categories
-- 📊 Generate scores and qualitative insights
-- 📄 Create downloadable PDF investment report
-- ⚡ Fast and simple user workflow
+- 🧠 Analyze startups across 9 evaluation categories
+- 📊 Generate structured scoring system
+- 📄 Downloadable PDF investment report
+- ⚡ Fast and user-friendly workflow
 
 ---
 
@@ -27,7 +28,7 @@ To automate the evaluation of startup pitch decks using AI-driven analysis and p
 The system evaluates pitch decks based on:
 
 1. Problem Statement  
-2. Solution/Product  
+2. Solution / Product  
 3. Market Opportunity  
 4. Business Model  
 5. Competitive Landscape  
@@ -41,8 +42,12 @@ The system evaluates pitch decks based on:
 ## 📊 Scoring System
 
 - Each category is scored from **0 to 10**
-- Weighted scoring system is applied
+- Weighted scoring model is applied
 - Final score is calculated out of **100**
+- Generates final investment recommendation:
+  - 🟢 Strong Buy
+  - 🟡 Hold
+  - 🔴 Pass
 
 ---
 
@@ -56,75 +61,86 @@ The system evaluates pitch decks based on:
 - Express.js
 
 ### 🔹 Python Service
-- python-pptx (for extracting text from PPT slides)
+- python-pptx (PPT/PPTX text extraction)
 
 ### 🔹 PDF Generation
-- pdfkit / pdfkit alternative (PDFDocument)
-- 
+- PDFKit / PDFDocument
 
-## 🔄 Workflow
+---
+
+## 🔄 System Workflow
 
 1. User uploads a PPT/PPTX file  
 2. Backend receives and stores the file  
-3. Python service extracts slide text  
-4. Extracted data is analyzed (AI or logic-based)  
+3. Python service extracts slide content  
+4. Data is processed and analyzed  
 5. Scores and insights are generated  
 6. PDF report is created  
-7. User downloads the report  
+7. User downloads the final report  
 
 ---
 
 ## 📄 Output Report Includes
 
-- ✅ Overall Score (0–100)  
-- ✅ Investment Recommendation (Strong Buy / Hold / Pass)  
-- ✅ Category-wise Scores  
-- ✅ Strengths and Weaknesses  
-- ✅ Actionable Recommendations  
-- ✅ Structured PDF Format 
+- 📊 Overall Score (0–100)
+- 📌 Investment Recommendation
+- 📈 Category-wise Scores
+- 💡 Strengths & Weaknesses
+- 🧭 Actionable Insights
+- 📄 Structured PDF Report
+
+---
+
+## 📸 Output Screenshots
+### Generated Investment Report
+![Screenshot](assets/screenshot1.png)
+
 ---
 
 ## 🧪 Testing Instructions
 
 1. Open the frontend in browser  
-2. Upload a sample PPT file  
+2. Upload a sample PPT/PPTX file  
 3. Click **Upload**  
 4. Wait for processing  
-5. Check generated PDF in backend folder  
+5. Download generated PDF report  
 
+---
 
 ## ⚠️ Limitations
 
-- Uses mock analysis (can be replaced with real AI)  
-- Basic UI design  
+- Currently uses mock/logic-based analysis  
+- UI is basic and can be improved  
 - Limited validation and error handling  
 
 ---
 
 ## 🚀 Future Enhancements
 
-- 🤖 Integrate real AI (OpenAI / Grok API)  
-- 🔐 Add authentication system  
-- ☁️ Deploy using cloud platforms (AWS, Render, Netlify)  
-- 📊 Add dashboard for report history  
-- 🌐 Multi-language support  
-- 📈 Advanced analytics and scoring improvements  
+- 🤖 Integrate AI models (OpenAI / LLM APIs)
+- 🔐 Add authentication system
+- ☁️ Deploy on cloud (AWS / Render / Netlify)
+- 📊 Add analytics dashboard
+- 🌐 Multi-language support
+- 📈 Advanced scoring models with ML
 
 ---
 
 ## 🎯 Use Cases
 
-- Startup evaluation by investors  
-- Venture capital firms  
-- Business analysts  
-- Academic and learning projects  
+- Venture capital investment analysis  
+- Startup evaluation platforms  
+- Academic project submissions  
+- Business research and consulting  
 
 ---
 
 ## 💡 Key Learning Outcomes
 
-- Full-stack development (React + Node.js)  
-- File handling and processing  
-- Python integration with backend  
-- AI-based text analysis  
-- PDF report generation  
+- Full-stack web development (React + Node.js)
+- Python integration with backend systems
+- File processing and automation
+- AI-based structured analysis design
+- PDF report generation workflow
+
+---
