@@ -93,7 +93,8 @@ The system evaluates pitch decks based on:
 
 ## 📸 Output Screenshots
 ### Generated Investment Report
-![Screenshot](assets/screenshot1.png)
+<img width="633" height="528" alt="screenshot1 png" src="https://github.com/user-attachments/assets/78ed0db3-2513-4bd6-923d-43476a1d23ed" />
+
 
 ---
 
