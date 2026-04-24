@@ -92,9 +92,19 @@ The system evaluates pitch decks based on:
 ---
 
 ## 📸 Output Screenshots
-### Generated Investment Report
-<img width="633" height="528" alt="screenshot1 png" src="https://github.com/user-attachments/assets/78ed0db3-2513-4bd6-923d-43476a1d23ed" />
 
+### 🟢 1. Home Page
+<img width="624" height="456" alt="Screenshot 2026-04-24 181950" src="https://github.com/user-attachments/assets/55a2dae9-3b1a-4eef-a21d-5990ff432f21" />
+
+---
+
+### 🟢 2. Report Generated
+<img width="631" height="611" alt="Screenshot 2026-04-24 182038" src="https://github.com/user-attachments/assets/8d3b472a-57d0-45bc-b8ac-dfc1001d236b" />
+
+---
+
+### 🟢 3. PDF Output
+<img width="633" height="528" alt="screenshot1 png" src="https://github.com/user-attachments/assets/4a1d9167-d529-417f-859d-b4c614b064d8" />
 
 ---
 
